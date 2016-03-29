@@ -1,5 +1,6 @@
-/*Navigation Component
-*/
+/*
+ * Navigation Component
+ */
 body {
 	margin: 0;
 	padding: 0;
@@ -9,7 +10,7 @@ body {
 	display: block;
 	margin: 0px;
 	padding: 0px;
-	box-shadow: 2px 2px solid rgb(80,80,80);
+	box-shadow: 2px 0 2px rgb(80,80,80);
 }
 .navigation-container {
 	width: 1000px;
@@ -49,5 +50,27 @@ body {
 }
 .navigation-link:hover {
 	background-color: rgb(200,200,200);
+}
 
+/*
+ * hero Component
+ */
+
+ .hero {
+ 	display: block;
+ 	width: 100%;
+ }
+.hero-container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+}
+.hero-mainTitle,
+.hero-subTitle {
+	text-align: center;
+}
+.hero-donate {
+	margin: 0 auto;
+	display: block;
+	text-align: center;
 }

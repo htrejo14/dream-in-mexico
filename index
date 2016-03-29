@@ -19,6 +19,13 @@
 	 			</ul>
 	 		</div>
  		</nav>
+ 		<header class="hero">
+ 			<div class="hero-container">
+	 			<h1 class="hero-mainTitle">EDUCATION IS POWER</h1>
+	 			<h2 class="hero-subTitle">Giving educational and employment opportunities in Mexico for undocumented Mexican talents living in the U.S</h4>
+	 			<button class="hero-donate">¡Donate!</button>
+ 			</div>
+ 		</header>
  	</main>
 
 </body>
