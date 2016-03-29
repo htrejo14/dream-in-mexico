@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dream in Mexico</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+ 	<main>
+ 	 	<nav class="navigation">
+	 		<div class="navigation-container">
+	 			<a href="" class="navigation-logo">
+	 				<img src="" class="navigation-logoImage">
+	 			</a>
+	 			<ul class="navigation-links">
+	 				<li class="navigation-element"><a href="" class="navigation-link">DONACIONES</a></li>
+	 				<li class="navigation-element"><a href="" class="navigation-link">SÉ UN DREAMER</a></li>
+	 				<li class="navigation-element"><a href="" class="navigation-link">CONTACTO</a></li>
+	 			</ul>
+	 		</div>
+ 		</nav>
+ 	</main>
+
+</body>
+</html>
