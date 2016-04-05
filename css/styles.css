@@ -2,6 +2,7 @@
  * Base styles
  */
 body {
+	font-family: arial;
 	margin: 0;
 	padding: 0;
 }
@@ -81,7 +82,6 @@ body {
 	width: 100%;
 }
 .contact-container {
-	border:1px solid black;
 	margin: 0 auto;
 	padding: 0;
 	width: 1000px;
@@ -94,14 +94,24 @@ body {
 	background-color: rgb(240,240,240);
 	box-sizing: border-box;
 	margin: 0 auto;
+	padding: 1rem 0;
 	width: 500px;
 }
-.contact-formInput {
+.contact-formInput,
+.contact-formTextarea {
 	border: 1px solid rgb(200, 200, 200);
-	box-sizing: content-box;
+	box-sizing: border-box;
 	border-radius: 4px;
 	display: block;
-	margin: 16px;
+	margin: 0.5rem auto;
 	padding: 16px;
-	width: 100%;
+	width: 90%;
+}
+.contact-formButton {
+	border: 1px solid rgb(180, 180, 180);
+	border-radius: 0.25rem;
+	display: block;
+	margin: 0 auto;
+	padding: 1rem;
+	width: 90%;
 }
