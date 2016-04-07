@@ -1,0 +1,6 @@
+# top-most editor config file
+root = true
+
+# general rules
+[*]
+insert_final_newline = true
