@@ -10,7 +10,7 @@ body {
  * Navigation Component
  */
 .navigation {
-	background-color: rgb(60, 60, 60);
+	background-color: rgb(250, 250, 250);
 	box-shadow: 2px 0 2px rgb(80, 80, 80);
 	display: block;
 	margin: 0px;
@@ -18,12 +18,15 @@ body {
 	width: 100%;
 }
 .navigation-container {
+	align-content: center;
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
 	margin: 0 auto;
 	width: 1000px;
 }
 .navigation-logo {
-	display: inline-block;
-	vertical-align: middle;
+	display: block;
 }
 .navigation-logoImage {
 	display: inline-block;
@@ -31,29 +34,25 @@ body {
 	vertical-align: middle;
 }
 .navigation-links {
+	display: block;
 	font-size: 0;
 	float: right;
 	list-style: none;
 	margin:0px;
 	padding: 0px;
-	vertical-align: middle;
 }
 .navigation-element {
 	display: inline-block;
-	line-height: 50px;
 }
 .navigation-link {
-	color: rgb(250, 250, 250);
-	font-size: 1rem;
-	font-weight: bold;
-	margin: 0;
-	padding: 1rem 0.75rem;
+	color: rgb(90, 90, 90);
+	font-size: 0.75rem;
+	margin: 0 0.5rem;
 	text-decoration: none;
 	transition: 0.1s ease;
 }
 .navigation-link:hover {
-	background-color: rgb(245, 245,245);
-	color: rgb(80, 80, 80);
+	color: #cb3345;
 }
 /*
  * Hero Component
@@ -97,8 +96,12 @@ body {
 	font-weight: bold;
 	margin: 1.5rem auto;
 	padding: 1rem 1.25rem;
+	transition: 0.2s ease;
 	text-align: center;
-	text-shadow: 1px 1px 4px rgb(80, 80, 80);
+}
+.hero-donate:hover {
+	background-color: #2499CC;
+	cursor: pointer;
 }
 /*
  * Contact Component
@@ -141,4 +144,29 @@ body {
 	margin: 0 auto;
 	padding: 1rem;
 	width: 90%;
+}
+/*!
+ * Description Component
+ */
+.description {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+}
+.description-container {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 2rem 0;
+	width: 1000px;
+}
+.description-block {
+	background-color: rgb(240, 240, 240);
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 0.25rem;
+	box-sizing: border-box;
+	display: block;
+	padding: 0.5rem 1.5rem;
+	width: 315px;
 }
