@@ -304,3 +304,22 @@ main {
 	display: flex;
 	justify-content: space-between;
 }
+/*!
+ * Documentation component
+ */
+.docs {
+	background-color: rgb(240, 240, 240);
+	padding: 2rem 0;
+}
+.docs-container {
+	margin: 0 auto;
+	padding: 0;
+	width: 1000px;
+}
+.docs-title {
+	text-align: center;
+}
+.docs-link {
+	display: block;
+	text-align: center;
+}
