@@ -6,6 +6,9 @@ body {
 	margin: 0;
 	padding: 0;
 }
+main {
+	position: relative;
+}
 /*
  * Navigation Component
  */
@@ -105,7 +108,7 @@ body {
 	padding: 1rem 1.25rem;
 	transition: 0.2s ease;
 	text-align: center;
-	max-width: 200px;
+	max-width: 120px;
 }
 .hero-donate:hover {
 	background-color: #2499CC;
@@ -233,7 +236,7 @@ body {
  */
 .offers {
 	margin: 0 auto;
-	padding: 0;
+	padding: 2rem 0;
 }
 .offers-container {
 	display: flex;
@@ -242,11 +245,62 @@ body {
 	width: 1000px;
 }
 .offers-card {
+	background-color: rgb(240, 240, 240);
+	border: 1px solid rgb(220, 220, 220);
+	border-radius: 0.25rem;
+	box-sizing: border-box;
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 0 1rem 0;
 	width: 440px;
 }
 .offers-image {
+	border-radius: 0.25rem 0.25rem 0 0;
 	display: block;
 	max-width: 100%;
+}
+.offers-title {
+	margin: 1rem auto;
+	text-align: center;
+}
+.offers-text {
+	margin: 0.5rem 1rem;
+}
+/*!
+ * Modal Component
+ */
+.modal {
+	display: none;
+}
+.modal.active {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(80, 80, 80, 0.5);
+	z-index: 10;
+}
+.modal-container {
+	background-color: rgb(250, 250, 250);
+	margin: 2rem auto;
+	padding: 1rem;
+	width: 500px;
+}
+.modal-form {
+	display: block;
+	margin: 0 auto;
+	padding: 1rem;
+	width: 100%;
+}
+.modal-formInput {
+	box-sizing: border-box;
+	display: block;
+	margin: 1rem 0;
+	padding: 0.5rem;
+	width: 100%;
+}
+.modal-header {
+	display: flex;
+	justify-content: space-between;
 }

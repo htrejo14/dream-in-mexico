@@ -10,17 +10,28 @@
 </head>
 <body>
 	<main>
+
+		<div class="modal">
+			<div class="modal-container">
+				<div class="modal-header">
+					<label class="modal-title">Make a donation!</label>
+					<a href="#close">Close</a>
+				</div>
+				<form class="modal-form">
+					<input class="modal-formInput" type="text">
+					<input class="modal-formInput" type="submit">
+				</form>
+			</div>
+		</div>
+
 		<nav class="navigation">
 			<div class="navigation-container">
-				<a href="" class="navigation-logo">
+				<a href="/" class="navigation-logo">
 					<img src="/static/img/logo-dim.png" class="navigation-logoImage">
 				</a>
 				<ul class="navigation-links">
 					<li class="navigation-element">
-						<a href="#donations" class="navigation-link">DONATIONS</a>
-					</li>
-					<li class="navigation-element">
-						<a href="become-a-dreamer.html" class="navigation-link">BECOME A DREAMER</a>
+						<a href="#become-a-dreamer" class="navigation-link">BECOME A DREAMER</a>
 					</li>
 					<li class="navigation-element">
 						<a href="#contact" class="navigation-link">CONTACT</a>
@@ -39,7 +50,7 @@
 				<h2 class="hero-subTitle">
 					Giving educational and employment opportunities in Mexico for undocumented Mexican talents living in the U.S
 				</h2>
-				<button class="hero-donate">¡DONATE!</button>
+				<a class="hero-donate" href="/donate" id="donate-button">DONATE!</a>
 			</div>
 		</header>
 
@@ -63,15 +74,17 @@
 			</div>
 		</section>
 
-		<section class="offers">
+		<section class="offers" id="become-a-dreamer">
 			<div class="offers-container">
 				<div class="offers-card">
 					<img class="offers-image" src="http://todosayudan.com/wp-content/uploads/2011/02/pizarra.jpg">
-					<h3>Trabajo</h3>
+					<h3 class="offers-title">Trabajo</h3>
+					<p class="offers-text">Más información sobre escuelas, universidades en México, universidades internacionales, becas, información sobre revalidación, traducciones, precios de apostillados y preguntas frecuentes</p>
 				</div>
 				<div class="offers-card">
 					<img class="offers-image" src="http://todosayudan.com/wp-content/uploads/2011/02/pizarra.jpg">
-					<h3>Educación</h3>
+					<h3 class="offers-title">Educación</h3>
+					<p class="offers-text">Información legal para personas que han sido deportadas, personas que han dejado familia en Estados Unidos y ligas externas de interés.</p>
 				</div>
 			</div>
 		</section>
@@ -106,5 +119,8 @@
 			</div>
 		</footer>
 	</main>
+
+	<script src="/static/js/app.js" charset="utf-8"></script>
+
 </body>
 </html>
