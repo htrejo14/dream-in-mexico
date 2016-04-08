@@ -1,2 +1,9 @@
 # macbook bullshit
 .DS_Store
+
+# virtual env
+venv
+
+# python bullshit
+*.pyc
+
